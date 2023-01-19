@@ -10,9 +10,6 @@
 # 🚀 Live Demo:
 - 
 
-# Presentation Video:
-- 
-
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Math-magician ](#-Math-magician-)
   - [🛠 Built With ](#-built-with-)
