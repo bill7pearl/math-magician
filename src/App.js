@@ -1,5 +1,3 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable import/no-extraneous-dependencies */
 import Wrapper from './components/Wrapper';
 import Calculator from './components/Calculator';
 import ButtonBox from './components/ButtonBox';
@@ -31,5 +29,4 @@ function App() {
     </CalcProvider>
   );
 }
-
 export default App;

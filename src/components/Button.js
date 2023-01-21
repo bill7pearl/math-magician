@@ -1,5 +1,3 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/prop-types */
 import { useContext } from 'react';
 import { CalcContext } from './CalcContext';
 
@@ -10,6 +8,7 @@ const getStyleName = (btn) => {
     '-': 'opt',
     '+': 'opt',
     '/': 'opt',
+    0: 'zero',
   };
   return className[btn];
 };
