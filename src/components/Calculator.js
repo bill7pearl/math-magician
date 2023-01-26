@@ -23,7 +23,7 @@ const Calculator = () => {
         <button className="button" onClick={onClickBtn}>AC</button>
         <button className="button" onClick={onClickBtn}>+/-</button>
         <button className="button" onClick={onClickBtn}>%</button>
-        <button className="button opt" onClick={onClickBtn}>+</button>
+        <button className="button opt" onClick={onClickBtn}>&divide;</button>
         <button className="button" onClick={onClickBtn}>7</button>
         <button className="button" onClick={onClickBtn}>8</button>
         <button className="button" onClick={onClickBtn}>9</button>
