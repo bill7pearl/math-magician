@@ -21,7 +21,8 @@
       "no-shadow": "off",
       "react/no-array-index-key": "off",
       "react/button-has-type": "off",
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "import/no-extraneous-dependencies": "off"
     },
     "ignorePatterns": [
       "dist/",
