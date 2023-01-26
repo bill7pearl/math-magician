@@ -17,11 +17,13 @@ body {
 
 .screen {
   height: 4rem;
-  margin-bottom: 4rem;
+  width: 98%;
+  background-color: gray;
+  color: white;
 }
 
 .wrapper {
-  background: #f6f8f9;
+  background: #dfedf4;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
@@ -31,6 +33,7 @@ body {
 
 .buttonBox {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   gap: 0.1rem;
 }
