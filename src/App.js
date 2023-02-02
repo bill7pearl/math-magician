@@ -10,20 +10,19 @@ function App() {
       <nav>
         <div className="header">
           <h1 className="title">Math Magicians</h1>
-
           <ul>
-            <li><Link to="/" className="no-border">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/Calculator">Calculator</Link></li>
             <li><Link to="/Quote">Quote</Link></li>
           </ul>
         </div>
       </nav>
-      <div className="footer"><p>Math Magicians © 2023</p></div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Calculator" element={<Calculator />} />
         <Route path="/Quote" element={<Quote />} />
       </Routes>
+      <footer><p>Math Magicians © 2023</p></footer>
     </>
   );
 }
