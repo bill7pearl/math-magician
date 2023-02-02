@@ -26,7 +26,7 @@ body {
   background: #dfedf4;
   width: 20rem;
   padding: 2rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
   border-radius: 1rem;
   box-shadow: 0 9px 15px -3px rgba(0, 0, 0, 0.1);
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .button {
-  background: #e9f0f4;
+  background: #fff;
   height: 3.5rem;
   padding: 10px;
   display: flex;
@@ -66,4 +66,74 @@ body {
 
 .opt {
   background: #f79505;
+}
+
+.home_page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home_page h2 {
+  width: 60%;
+  padding: 5%;
+  font-size: 2rem;
+}
+
+.home_page p {
+  width: 80%;
+  line-height: 35px;
+  letter-spacing: 2px;
+  text-align: start;
+  align-self: center;
+  color: rgb(39, 32, 22);
+  font-size: 1.6rem;
+  padding: 3%;
+}
+
+nav .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.header li a {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background-color: #b7b7ff;
+  color: #eeeae5;
+  transition: 0.3s ease;
+}
+
+.quote {
+  height: 200px;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  padding: 10px;
+  text-align: center;
+  color: rgb(116, 111, 111);
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
 }
